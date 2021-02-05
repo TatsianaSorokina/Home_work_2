@@ -83,6 +83,8 @@ button {
 }
 
 .btn {
+    width: 200px;
+    height: 45px;
     font-weight: 500;
     color: #fff;
     padding: 15px 36px;
@@ -187,4 +189,72 @@ button {
     font-size: 36px;
     font-weight: 400;
     padding-left: 20px;
+}
+
+/*position*/
+
+.br_blue {
+    height: 490px;
+    max-width: 1920px;
+    background-color: #504DC2;
+    position: relative;
+}
+
+.position {
+    position: absolute;
+    left: 205px;
+    top: 100px;
+}
+
+.position_btn {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    align-items: center;
+}
+
+.position_btn h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.br_white { /*gthtytcnb*/
+    height: 490px;
+    max-width: 1920px;
+    background-color: #E5E5E5;
+}
+
+.column {
+    padding-left: 30px;
+}
+
+.column:first-child {
+    padding-left: 0;
+}
+
+.number {
+    color: #4985FF;
+}
+
+.column h3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.column p {
+    font-weight: 400;
+    color: #999999;
+    padding-bottom: 30px;
+}
+
+.column a {
+    color: #4985FF;
 }
