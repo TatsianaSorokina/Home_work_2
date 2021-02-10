@@ -79,6 +79,8 @@ button {
 }
 
 .page h1 {
+    font-size: 48px;
+    font-weight: 800;
     margin-bottom: 50px;
 }
 
@@ -202,7 +204,9 @@ button {
 
 .position {
     position: absolute;
-    left: 205px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     top: 100px;
 }
 
@@ -262,13 +266,13 @@ button {
 .br_white { 
     height: 490px;
     max-width: 1920px;
-    background-color: #E5E5E5;
+    background-color: #F6F6F8;
 }
 
 /*gallery*/
 
 .gallery {
- background-color: #F6F6F8;
+ background-color: #E5E5E5;
  text-align: center;
  padding-bottom: 130px;
 }
@@ -298,4 +302,71 @@ button {
 
 .gallery_img img:first-child {
     margin-left: 0;
+}
+
+/*background-image*/
+
+.background-image {
+    background-image: url(../img/banner2.png);
+    height: 570px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.background-image h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    padding-top: 70px;
+    margin-bottom: 30px;
+}
+
+.background-image p {
+    font-weight: 400;
+    color: #fff;
+}
+
+.video_group {
+    width: 1110px;
+    padding-bottom: 85px;
+    border-bottom: 1px solid #E0E0E0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 220px;
+}
+
+.background-grey {
+    background: #F6F6F8;
+    height: 512px;
+    width: 100%;
+    text-align: center;
+}
+
+.background-grey h3 {
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 250px;
+}
+
+.background-grey p {
+    font-weight: 400;
+    color: #999999;
+    padding-top: 20px;
+}
+
+.text-small {
+    font-size: 13px;
+    font-weight: 400;
+    color: #999;
+}
+
+/*footer*/
+
+.footer {
+    height: 413px;
+    width: 100%;
+    background-color: #E5E5E5;
 }
