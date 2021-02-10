@@ -51,6 +51,13 @@ button {
 
 .nav_ul li {
     margin-left: 40px;
+    padding-bottom: 39px;
+    border-bottom: 2px solid transparent;
+}
+
+.nav_ul li:hover {
+    border-bottom: 2px solid #fff;
+    transition: 0.3s;
 }
 
 .nav_ul a {
@@ -61,6 +68,7 @@ button {
 
 .border {
     border: 1px solid #A1A1A1;
+    background: #A1A1A1;
     position: absolute;
     top: 100px;
     left: 0;
@@ -94,6 +102,7 @@ button {
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
     border: none;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 /*main*/
@@ -173,6 +182,7 @@ button {
 
 .border-two {
     border: 1px solid #E0E0E0;
+    background: #E0E0E0;
 }
 
 .projects {
@@ -370,19 +380,68 @@ button {
     font-weight: 400;
     border: 1px solid #F2F2F2;
     background: #F6F6F8;
-    border-radius: 30px;
+    border-radius: 30px 0 0 30px;
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
 }
 
 .shadow {
     box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 0 30px 30px 0;
+    
 }
 
 /*footer*/
 
 .footer {
-    height: 413px;
     width: 100%;
     background-color: #E5E5E5;
-   
+}
+
+.list {
+    padding: 0;
+}
+
+.list a {
+    text-decoration: none;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22,19px;
+    
+}
+
+.list_group {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #999999;
+}
+
+.list_group h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.list_group ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list_group li {
+    margin-bottom: 30px; 
+    
+}
+
+.list_group img {
+    padding-right: 13px;
+}
+
+.copyright {
+    font-size: 13px;
+    font-weight: 400;
+    color: #999;
+    padding: 30px;
+    text-align: center;
 }
